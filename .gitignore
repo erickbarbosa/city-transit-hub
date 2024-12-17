@@ -1,0 +1,75 @@
+# General OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Build directories
+build/
+target/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+gradlew
+gradlew.bat
+
+# Logs
+*.log
+*.pid
+*.seed
+
+# Dependency directories
+**/node_modules/
+**/vendor/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.sublime-workspace
+
+# Generated files
+gen/
+dist/
+release/
+
+# Spring Boot
+spring.log
+
+# Docker
+docker-compose.override.yml
+**/docker/*
+
+# Configuration files
+*.env
+*.yaml
+*.yml
+*.json
+
+# Lombok generated files
+lombok.config
+
+# Testing
+/test-output/
+
+# Specific to monorepo structure
+**/eureka-server/build/
+**/services/*/build/
+**/gateway/build/
+**/config/build/

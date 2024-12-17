@@ -1,0 +1,8 @@
+rootProject.name = 'city-transit-hub'
+
+include 'eureka-server'
+include 'services:bus-service'
+include 'services:taxi-service'
+include 'services:bike-service'
+include 'services:user-service'
+include 'gateway'
